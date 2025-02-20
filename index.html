@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ell Vermeulen - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ELL VERMEULEN</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="menu-icon">☰</div>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <img src="img/foto Ell.jpg" alt="Profile Picture">
+            <h2>HI, ITS ME!</h2>
+            <p>Hi, I'm Ell vermeulen. I’m a final-year Crossmedia student with experience in web development, design, and multimedia. I’m passionate about blending creativity with technology and excited to apply my skills as I prepare to graduate.</p>
+            <div class="social-icons">
+                <span>⚫ ⚫ ⚫</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="container">
+        <img src="img/foto Ell.jpg" alt="Profile Picture">
+        <div class="about-text">
+            <h2>ABOUT ME</h2>
+            <p>Hi, I’m 20 and currently in my final year of Crossmedia at TSM. Alongside my studies, I’m passionate about Tumbling and enjoy pushing my limits both physically and creatively. I’m excited to combine my skills in digital media and design as I prepare for the next step in my career.</p>
+        </div>
+    </section>
+    
+    <section id="services" class="container">
+        <h2>SERVICES</h2>
+        <div class="services-grid">
+            <div class="service"><p>CODING</p></div>
+            <div class="service"><p>FIGMA</p></div>
+            <div class="service"><p>PHOTOGRAPHY</p></div>
+        </div>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2>PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project"><img src="img/project tshirt.png" alt="Project 1"><p>T-shirt Berlin</p></div>
+            <div class="project"><img src="img/project SB.png" alt="Project 2"><p>Banner Simone</p></div>
+            <div class="project"><img src="img/project landenfiche.png" alt="Project 3"><p>Affiche Greece</p></div>
+            <div class="project"><img src="img/project droom.png" alt="Project 4"><p>Imagination</p></div>
+            <div class="project"><img src="img/project festival.png" alt="Project 5"><p>Colorful Festival</p></div>
+            <div class="project"><img src="img/project kortfilm.png" alt="Project 6"><p>Shortfilm</p></div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>CONTACT ME</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone Number">
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">SEND</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>FAQ</li>
+                    <li>SERVICES</li>
+                    <li>ABOUT ME</li>
+                    <li>PROJECTS</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+            <p>&copy; 2025 All rights reserved by Ell Vermeulen</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
